@@ -1,10 +1,9 @@
 {
-  "name": "migration_DIY",
+  "name": "migrationDIY",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "migratio up -c $DATABASE_URL"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,14 @@
   "dependencies": {
     "migratio": "^2.0.3",
     "pg": "^7.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maugares/migration_DIY.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maugares/migration_DIY/issues"
+  },
+  "homepage": "https://github.com/maugares/migration_DIY#readme",
+  "description": ""
 }
